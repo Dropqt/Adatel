@@ -1,0 +1,14 @@
+<!doctype html><meta charset="utf-8">
+<title>Autoplay test</title>
+<video id="v" autoplay muted playsinline webkit-playsinline preload="auto"
+       width="640" height="360" poster="assets/img/hero-poster.jpg">
+  <source src="assets/media/hero.mp4" type="video/mp4">
+</video>
+<script>
+const v = document.getElementById('v');
+const log = (...a)=>console.log('[autoplay]',...a);
+v.addEventListener('play', ()=>log('PLAY'));
+v.addEventListener('canplay', ()=>log('CANPLAY'));
+v.addEventListener('loadedmetadata', ()=>log('LOADEDMETADATA'));
+v.play().catch(e=>log('play() blocked:', e.name, e.message));
+</script>
