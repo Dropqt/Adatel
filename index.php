@@ -16,8 +16,8 @@
 </head>
 <body>
   <!-- Globalna video pozadina celog sajta -->
-<div class="site-video-bg" aria-hidden="true">
-  <video class="site-video"
+  <div class="site-video-bg" aria-hidden="true">
+    <video class="site-video"
          autoplay muted loop playsinline webkit-playsinline preload="auto"
          poster="assets/img/hero-poster.jpg">
     <source src="assets/media/hero.mp4" type="video/mp4">
@@ -36,7 +36,7 @@
 
       <nav class="nav" id="mainNav" aria-label="Glavni meni">
         <a href="index.php" class="active">Početna</a>
-        <a href="#trust">Partneri</a>
+        <a href="#trust">PartneriZ</a>
         <a href="#projekti">Projekti</a>
         <a href="#licence">Licence</a>
         <a href="#kontakt" class="btn btn-sm btn-accent">Kontakt</a>
