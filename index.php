@@ -36,7 +36,7 @@
 
       <nav class="nav" id="mainNav" aria-label="Glavni meni">
         <a href="index.php" class="active">Početna</a>
-        <a href="#trust">PartneriZ</a>
+        <a href="#trust">Partneri</a>
         <a href="#projekti">Projekti</a>
         <a href="#licence">Licence</a>
         <a href="#kontakt" class="btn btn-sm btn-accent">Kontakt</a>
