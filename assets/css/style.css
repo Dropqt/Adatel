@@ -7,7 +7,7 @@
   --ink:#f4f4f5;
   --muted:#a1a1aa;
   --line:#1f2126;
-  --accent:#ffd200;
+  --accent:#f9b600;
   --accent-ink:#111111;
   --shadow:0 10px 30px rgba(0,0,0,.25);
   --topbar-h:64px; /* visina topbara */
@@ -353,7 +353,7 @@ input:focus,textarea:focus{
   position: fixed;
   bottom: 20px;
   right: 25px;
-  background-color: #ffd200;
+  background-color: #f9b600;
   color: #0b0b0d;
   font-size: 24px;
   padding: 10px 16px;
