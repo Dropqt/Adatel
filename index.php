@@ -171,7 +171,7 @@ realizacije.</p>
 
     <div class="grid projects">
       <!-- KARTICA 1 -->
-      <a class="project"  href="projects.html" aria-label="Telekom Srbija — održavanje, GPON, magistrala">
+      <a class="project" aria-label="Telekom Srbija — održavanje, GPON, magistrala">
         <div class="ph" aria-hidden="true"></div>
         <div class="project-meta">
           <h4>Telekom Srbija</h4>
@@ -186,7 +186,7 @@ realizacije.</p>
       </a>
 
       <!-- KARTICA 2 -->
-      <a class="project" href="projects.html" aria-label="ZTE — ključ u ruke optička mreža, Kragujevac centar">
+      <a class="project"  aria-label="ZTE — ključ u ruke optička mreža, Kragujevac centar">
         <div class="ph" aria-hidden="true"></div>
         <div class="project-meta">
           <h4>ZTE (za potrebe operatera)</h4>
@@ -202,7 +202,7 @@ realizacije.</p>
       </a>
 
       <!-- KARTICA 3 -->
-      <a class="project" href="projects.html" aria-label="A1 Srbija — Fttx mreže i modernizacija BS, Beograd">
+      <a class="project"  aria-label="A1 Srbija — Fttx mreže i modernizacija BS, Beograd">
         <div class="ph" aria-hidden="true"></div>
         <div class="project-meta">
           <h4>A1 Srbija</h4>
@@ -216,7 +216,7 @@ realizacije.</p>
       </a>
 
       <!-- KARTICA 4 -->
-      <a class="project" href="projects.html" aria-label="Strabag, Ingrap Omni, Extra auto transport — izmeštanja TK">
+      <a class="project"  aria-label="Strabag, Ingrap Omni, Extra auto transport — izmeštanja TK">
         <div class="ph" aria-hidden="true"></div>
         <div class="project-meta">
           <h4>Strabag · Ingrap Omni · Extra auto transport</h4>
