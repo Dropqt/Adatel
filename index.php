@@ -292,7 +292,7 @@ realizacije.</p>
         <div class="license-list">
           <!-- P150E3 -->
           <article class="license-item">
-            <a class="doc-thumb" href="assets/docs/licence-p150e3.pdf" target="_blank" rel="noopener" aria-label="Licenca P150E3 (PDF)">
+            <a class="doc-thumb"  target="_blank" rel="noopener" aria-label="Licenca P150E3 (PDF)">
               <img src="assets/img/thumbs/thumbtest.jpg"
                    alt="Licenca P150E3 — umanjen prikaz"
                    loading="lazy" width="300" height="400">
@@ -307,7 +307,7 @@ realizacije.</p>
 
           <!-- P151E3 -->
           <article class="license-item">
-            <a class="doc-thumb" href="assets/docs/licence-p151e3.pdf" target="_blank" rel="noopener" aria-label="Licenca P151E3 (PDF)">
+            <a class="doc-thumb"  target="_blank" rel="noopener" aria-label="Licenca P151E3 (PDF)">
               <img src="assets/img/thumbs/thumbtest.jpg"
                    alt="Licenca P151E3 — umanjen prikaz"
                    loading="lazy" width="300" height="400">
@@ -329,7 +329,7 @@ realizacije.</p>
         <div class="license-list">
           <!-- I150E3 -->
           <article class="license-item">
-            <a class="doc-thumb" href="assets/docs/licence-i150e3.pdf" target="_blank" rel="noopener" aria-label="Licenca I150E3 (PDF)">
+            <a class="doc-thumb"  target="_blank" rel="noopener" aria-label="Licenca I150E3 (PDF)">
               <img src="assets/img/thumbs/thumbtest.jpg"
                    alt="Licenca I150E3 — umanjen prikaz"
                    loading="lazy" width="300" height="400">
@@ -366,7 +366,7 @@ realizacije.</p>
 
       <div class="split iso-split">
         <figure class="iso-figure">
-          <a href="assets/docs/ISO9001.pdf" target="_blank" rel="noopener" aria-label="ISO 9001:2015 (PDF)">
+          <a href="https://drive.google.com/file/d/1yGyD9XktoZh1BqI9YW-bRP8xIuI9WLAI/view?usp=sharing" target="_blank" rel="noopener" aria-label="ISO 9001:2015 (PDF)">
             <img src="assets/img/thumbs/ISO9001-thumb.png"
                  alt="ISO 9001:2015 — umanjen prikaz sertifikata"
                  loading="lazy" width="640" height="800">
