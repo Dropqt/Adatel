@@ -362,31 +362,37 @@ realizacije.</p>
 
     <!-- SEKCIJA 3: Međunarodni Standardi Kvaliteta -->
     <section class="licenses-iso">
-      <h3 class="licenses-section-title">Sistem Menadžmenta Kvalitetom (QMS)</h3>
+  <h3 class="licenses-section-title">Sistem Menadžmenta Kvalitetom (QMS)</h3>
 
-      <div class="split iso-split">
-        <figure class="iso-figure">
-          <a href="https://drive.google.com/file/d/1yGyD9XktoZh1BqI9YW-bRP8xIuI9WLAI/view?usp=sharing" target="_blank" rel="noopener" aria-label="ISO 9001:2015 (PDF)">
-            <img src="assets/img/thumbs/ISO9001-thumb.png"
-                 alt="ISO 9001:2015 — umanjen prikaz sertifikata"
-                 loading="lazy" width="640" height="800">
-          </a>
-          <figcaption class="muted">Sertifikat: ISO 9001:2015</figcaption>
-        </figure>
+  <div class="split iso-split">
+    <figure class="iso-figure">
+      
+      <a href="assets/img/thumbs/ISO9001-thumb.png" 
+         target="_blank" 
+         rel="noopener" 
+         aria-label="ISO 9001:2015 (PDF)">
+         
+        <img src="assets/img/thumbs/ISO9001-thumb.png"
+             alt="ISO 9001:2015 — umanjen prikaz sertifikata"
+             loading="lazy" width="640" height="800">
+      </a>
+      
+      <figcaption class="muted">Sertifikat: ISO 9001:2015</figcaption>
+    </figure>
 
-        <div class="iso-copy">
-          <p>
-            Posedovanje ISO 9001 sertifikata potvrđuje da Adatel posluje po strogo definisanim i međunarodno priznatim procedurama.
-            Za vas kao klijenta, ovo znači:
-          </p>
-          <ul class="checklist">
-            <li><strong>Pouzdanost:</strong> Dosledan kvalitet usluge na svakom projektu.</li>
-            <li><strong>Efikasnost:</strong> Efikasno upravljanje projektima i poštovanje rokova.</li>
-            <li><strong>Minimiziranje rizika:</strong> Profesionalan pristup i upravljanje procesima u svakoj fazi saradnje.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <div class="iso-copy">
+      <p>
+        Posedovanje ISO 9001 sertifikata potvrđuje da Adatel posluje po strogo definisanim i međunarodno priznatim procedurama.
+        Za vas kao klijenta, ovo znači:
+      </p>
+      <ul class="checklist">
+        <li><strong>Pouzdanost:</strong> Dosledan kvalitet usluge na svakom projektu.</li>
+        <li><strong>Efikasnost:</strong> Efikasno upravljanje projektima i poštovanje rokova.</li>
+        <li><strong>Minimiziranje rizika:</strong> Profesionalan pristup i upravljanje procesima u svakoj fazi saradnje.</li>
+      </ul>
+    </div>
+  </div>
+</section>
   </div>
 </section>
 
