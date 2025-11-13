@@ -367,7 +367,7 @@ realizacije.</p>
   <div class="split iso-split">
     <figure class="iso-figure">
       
-      <a href="assets/img/thumbs/ISO9001-thumb.png" 
+      <a href="assets/licence/ISO9001.pdf" 
          target="_blank" 
          rel="noopener" 
          aria-label="ISO 9001:2015 (PDF)">
