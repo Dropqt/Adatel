@@ -172,7 +172,14 @@ realizacije.</p>
     <div class="grid projects">
       <!-- KARTICA 1 -->
       <a class="project" aria-label="Telekom Srbija — održavanje, GPON, magistrala">
-        <div class="ph" aria-hidden="true"></div>
+      <div class="project-img-wrapper" style="width: 100%; height: 200px; overflow: hidden; border-radius: 15px 15px 0 0;">
+    <img 
+    src="assets/img/thumbs/serversobabg.png" 
+    alt="Telekom Srbija GPON izgradnja optičke mreže" 
+    style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px 6px 0 0; display: block;"
+>
+    >
+</div>
         <div class="project-meta">
           <h4>Telekom Srbija</h4>
           <p><strong>Projekat:</strong> Održavanje, GPON implementacija i magistralna infrastruktura</p>
@@ -186,47 +193,59 @@ realizacije.</p>
       </a>
 
       <!-- KARTICA 2 -->
-      <a class="project"  aria-label="ZTE — ključ u ruke optička mreža, Kragujevac centar">
-        <div class="ph" aria-hidden="true"></div>
-        <div class="project-meta">
-          <h4>ZTE (za potrebe operatera)</h4>
-          <p><strong>Projekat:</strong> Izgradnja “ključ u ruke” optičke mreže</p>
-          <p><strong>Lokacija:</strong> Kragujevac — centar grada</p>
-          <ul>
-            <li>Akvizicija, projektovanje, sve dozvole</li>
-            <li>Kompletno izvođenje niskogradnje i TK radova</li>
-            <li>Finalno testiranje i upotrebna dozvola</li>
-            <li>≈ 15.000 povezanih domaćinstava, 35+ km trase, 500+ zgrada</li>
-          </ul>
-        </div>
-      </a>
+      <a class="project" aria-label="ZTE — ključ u ruke optička mreža, Kragujevac centar">
+    <img 
+        src="assets/img/thumbs/editedbgkg.png" 
+        alt="ZTE Kragujevac izgradnja optičke mreže ključ u ruke" 
+        style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px 6px 0 0; display: block;"
+    >
+    <div class="project-meta">
+        <h4>ZTE (za potrebe operatera)</h4>
+        <p><strong>Projekat:</strong> Izgradnja “ključ u ruke” optičke mreže</p>
+        <p><strong>Lokacija:</strong> Kragujevac — centar grada</p>
+        <ul>
+        <li>Akvizicija, projektovanje, sve dozvole</li>
+        <li>Kompletno izvođenje niskogradnje i TK radova</li>
+        <li>Finalno testiranje i upotrebna dozvola</li>
+        <li>≈ 15.000 povezanih domaćinstava, 35+ km trase, 500+ zgrada</li>
+        </ul>
+    </div>
+</a>
 
       <!-- KARTICA 3 -->
-      <a class="project"  aria-label="A1 Srbija — Fttx mreže i modernizacija BS, Beograd">
-        <div class="ph" aria-hidden="true"></div>
-        <div class="project-meta">
-          <h4>A1 Srbija</h4>
-          <p><strong>Projekat:</strong> Fttx mreže i osavremenjivanje baznih stanica</p>
-          <p><strong>Lokacija:</strong> Beograd (Rakovica, Novi Beograd)</p>
-          <ul>
+      <a class="project" aria-label="A1 Srbija — Fttx mreže i modernizacija BS, Beograd">
+    <img 
+        src="assets/img/thumbs/baznastanicabg.jpg" 
+        alt="A1 Srbija modernizacija baznih stanica i Fttx mreže" 
+        style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px 6px 0 0; display: block;"
+    >
+    <div class="project-meta">
+        <h4>A1 Srbija</h4>
+        <p><strong>Projekat:</strong> Fttx mreže i osavremenjivanje baznih stanica</p>
+        <p><strong>Lokacija:</strong> Beograd (Rakovica, Novi Beograd)</p>
+        <ul>
             <li>“Ključ u ruke” izgradnja Fttx mreža (od dozvole do upotrebne)</li>
             <li>Modernizacija 30+ baznih stanica u Beogradu</li>
-          </ul>
-        </div>
-      </a>
+        </ul>
+    </div>
+</a>
 
       <!-- KARTICA 4 -->
-      <a class="project"  aria-label="Strabag, Ingrap Omni, Extra auto transport — izmeštanja TK">
-        <div class="ph" aria-hidden="true"></div>
-        <div class="project-meta">
-          <h4>Strabag · Ingrap Omni · Extra auto transport</h4>
-          <p><strong>Projekat:</strong> Složeni radovi na izmeštanju TK infrastrukture</p>
-          <ul>
+      <a class="project" aria-label="Strabag, Ingrap Omni, Extra auto transport — izmeštanja TK">
+    <img 
+        src="assets/img/thumbs/novisadsuboticapruga.jpg" 
+        alt="Izmeštanje TK infrastrukture Strabag i Ingrap brza pruga" 
+        style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px 6px 0 0; display: block;"
+    >
+    <div class="project-meta">
+        <h4>Strabag · Ingrap Omni · Extra auto transport</h4>
+        <p><strong>Projekat:</strong> Složeni radovi na izmeštanju TK infrastrukture</p>
+        <ul>
             <li><strong>Strabag:</strong> Izmeštanje TK na kružnom toku u Obrenovcu + nova trasa i TT okna</li>
             <li><strong>Ingrap / Extra auto transport:</strong> Izmeštanje optike na brzoj pruzi Novi Sad – Subotica</li>
-          </ul>
-        </div>
-      </a>
+        </ul>
+    </div>
+</a>
     </div>
   </div>
 </section>
