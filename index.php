@@ -165,6 +165,37 @@ realizacije.</p>
       </div>
     </section>
 
+    <!-- ===== POVRENJE SU NAM UKAZALI ===== -->
+<section id="trust" class="section trust">
+  <div class="container">
+    <h2 class="section-title">Poverenje su nam ukazali</h2>
+
+    <div class="logo-grid">
+      <!-- 1. red -->
+      <img src="assets/img/logos/logo1.png" alt="Partner 1" loading="lazy">
+      <img src="assets/img/logos/logo2.png" alt="Partner 2" loading="lazy">
+      <img src="assets/img/logos/logo3.png" alt="Partner 3" loading="lazy">
+      <img src="assets/img/logos/logo4.png" alt="Partner 4" loading="lazy">
+
+      <!-- 2. red -->
+      <img src="assets/img/logos/logo5.png" alt="Partner 5" loading="lazy">
+      <img src="assets/img/logos/logo6.png" alt="Partner 6" loading="lazy">
+      <img src="assets/img/logos/logo7.png" alt="Partner 7" loading="lazy">
+      <img src="assets/img/logos/logo8.png" alt="Partner 8" loading="lazy">
+
+      <!-- 3. red -->
+      <img src="assets/img/logos/logo9.png" alt="Partner 9" loading="lazy">
+      <img src="assets/img/logos/logo10.png" alt="Partner 10" loading="lazy">
+      <img src="assets/img/logos/logo11.png" alt="Partner 11" loading="lazy">
+      <img src="assets/img/logos/logo12.png" alt="Partner 12" loading="lazy">
+      <img src="assets/img/logos/logo13.png" alt="Partner 13" loading="lazy">
+
+      
+      
+    </div>
+  </div>
+</section>
+
     <section class="section" id="projekti">
   <div class="container">
     <h2 class="section-title">Izdvojeni projekti</h2>
@@ -250,36 +281,7 @@ realizacije.</p>
   </div>
 </section>
 
-<!-- ===== POVRENJE SU NAM UKAZALI ===== -->
-<section id="trust" class="section trust">
-  <div class="container">
-    <h2 class="section-title">Poverenje su nam ukazali</h2>
 
-    <div class="logo-grid">
-      <!-- 1. red -->
-      <img src="assets/img/logos/logo1.png" alt="Partner 1" loading="lazy">
-      <img src="assets/img/logos/logo2.png" alt="Partner 2" loading="lazy">
-      <img src="assets/img/logos/logo3.png" alt="Partner 3" loading="lazy">
-      <img src="assets/img/logos/logo4.png" alt="Partner 4" loading="lazy">
-
-      <!-- 2. red -->
-      <img src="assets/img/logos/logo5.png" alt="Partner 5" loading="lazy">
-      <img src="assets/img/logos/logo6.png" alt="Partner 6" loading="lazy">
-      <img src="assets/img/logos/logo7.png" alt="Partner 7" loading="lazy">
-      <img src="assets/img/logos/logo8.png" alt="Partner 8" loading="lazy">
-
-      <!-- 3. red -->
-      <img src="assets/img/logos/logo9.png" alt="Partner 9" loading="lazy">
-      <img src="assets/img/logos/logo10.png" alt="Partner 10" loading="lazy">
-      <img src="assets/img/logos/logo11.png" alt="Partner 11" loading="lazy">
-      <img src="assets/img/logos/logo12.png" alt="Partner 12" loading="lazy">
-      <img src="assets/img/logos/logo13.png" alt="Partner 13" loading="lazy">
-
-      
-      
-    </div>
-  </div>
-</section>
 
 
 
