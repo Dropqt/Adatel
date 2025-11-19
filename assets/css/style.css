@@ -130,8 +130,15 @@ body{
   gap:24px;align-items:center;min-height:calc(100vh - var(--topbar-h));padding:56px 0;
 }
 .hero-copy{max-width:820px}
-.hero h1{font-size:42px;margin:0 0 12px 0;line-height:1.15;font-weight:800;letter-spacing:.3px}
-.hero p{color:var(--muted);margin:0 0 20px 0;font-size:18px}
+/* DODATE SENKE ZA BOLJI KONTRAST */
+.hero h1{
+  font-size:42px;margin:0 0 12px 0;line-height:1.15;font-weight:800;letter-spacing:.3px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.75); /* JAKA SENKA NA NASLOV */
+}
+.hero p{
+  color:var(--muted);margin:0 0 20px 0;font-size:18px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* DISKRETNA SENKA NA PARAGRAF */
+}
 .hero-cta .btn{margin:0 8px}
 
 /* ===== Globalna video pozadina za ceo sajt ===== */

@@ -66,16 +66,20 @@
       </div>
 
       <div class="container hero-inner">
-        <div class="hero-copy">
-          <h1>Gradimo sigurno. Isporučujemo na vreme.</h1>
-          <p>Pružamo kompletnu uslugu po principu &quot;ključ u ruke&quot;, od ideje do konačne
-realizacije.</p>
-          <div class="hero-cta">
-          <a class="btn btn-accent" href="#projekti">Pogledaj projekte</a>
-            <a class="btn btn-ghost" href="#usluge">Naše usluge</a>
-          </div>
-        </div>
+    <div class="hero-copy">
+      <h1>
+        Gradimo infrastrukturu koja traje.<br>
+        Energiju koja pokreće.<br>
+        Komunikaciju koja spaja.<br>
+        Projektujemo vašu budućnost
+      </h1>
+      <br>
+      <div class="hero-cta">
+        <a class="btn btn-accent" href="#projekti">Pogledaj projekte</a>
+        <a class="btn btn-ghost" href="#usluge">Naše usluge</a>
       </div>
+    </div>
+</div>
 
       <noscript>
         <style>.hero-video{display:flex}</style>
