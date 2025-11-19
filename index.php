@@ -442,9 +442,10 @@ realizacije.</p>
           <div class="contact-box">
             
             <h3>Adatel doo Beograd</h3>
-            <p>Vojina Đurašinovića Kostje 27, Beograd, Srbija</p>
+            <p>Kikindska 86e, Borča – Beograd</p>
+            <p>Adresa za prijem pošte: Vojina Đurašinovića Kostje 27, 11160 Mirijevo, Beograd</p>
             <p><a href="mailto:office@adatel.rs">office@adatel.rs</a></p>
-            <p><a href="tel:+381XXXXXXXXX">+381 65 9596563</a></p>
+            <!-- <p><a href="tel:+381XXXXXXXXX">+381 65 9596563</a></p> -->
 
             <div class="map-embed" role="region" aria-label="Mapa lokacije">
               <iframe
