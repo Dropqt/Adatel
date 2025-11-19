@@ -286,10 +286,8 @@ realizacije.</p>
 
 
 
-<!-- ===== LICENCE I SERTIFIKATI ===== -->
 <section id="licence" class="section alt licenses">
   <div class="container">
-    <!-- SEKCIJA 1: Naslov i Uvod -->
     <header class="licenses-head">
       <h1 class="licenses-title">Garancija Kvaliteta i Stručnosti</h1>
       <h2 class="licenses-subtitle">Licence i Sertifikati Kompanije Adatel</h2>
@@ -301,23 +299,15 @@ realizacije.</p>
       </p>
     </header>
 
-    <!-- SEKCIJA 2: Državne Licence -->
     <section class="licenses-block">
       <h3 class="licenses-section-title">Velike Licence Ministarstva Građevinarstva, Saobraćaja i Infrastrukture</h3>
       
 
-      <!-- Grupa P – Projektovanje -->
       <div class="license-group">
         <h4 class="license-group-title">Grupa „P” — Licence za Projektovanje</h4>
 
         <div class="license-list">
-          <!-- P150E3 -->
-          <article class="license-item">
-            <a class="doc-thumb"  target="_blank" rel="noopener" aria-label="Licenca P150E3 (PDF)">
-              <img src="assets/img/thumbs/thumbtest.jpg"
-                   alt="Licenca P150E3 — umanjen prikaz"
-                   loading="lazy" width="300" height="400">
-            </a>
+          <article class="license-item license-text-card">
             <div class="doc-body">
               <h5 class="doc-title">Licenca П150Е3 (P150E3)</h5>
               <p class="doc-text">
@@ -326,13 +316,7 @@ realizacije.</p>
             </div>
           </article>
 
-          <!-- P151E3 -->
-          <article class="license-item">
-            <a class="doc-thumb"  target="_blank" rel="noopener" aria-label="Licenca P151E3 (PDF)">
-              <img src="assets/img/thumbs/thumbtest.jpg"
-                   alt="Licenca P151E3 — umanjen prikaz"
-                   loading="lazy" width="300" height="400">
-            </a>
+          <article class="license-item license-text-card">
             <div class="doc-body">
               <h5 class="doc-title">Licenca П151Е3 (P151E3)</h5>
               <p class="doc-text">
@@ -343,18 +327,11 @@ realizacije.</p>
         </div>
       </div>
 
-      <!-- Grupa I – Izvođenje radova -->
       <div class="license-group">
         <h4 class="license-group-title">Grupa „I” — Licence za Izvođenje Radova</h4>
 
         <div class="license-list">
-          <!-- I150E3 -->
-          <article class="license-item">
-            <a class="doc-thumb"  target="_blank" rel="noopener" aria-label="Licenca I150E3 (PDF)">
-              <img src="assets/img/thumbs/thumbtest.jpg"
-                   alt="Licenca I150E3 — umanjen prikaz"
-                   loading="lazy" width="300" height="400">
-            </a>
+          <article class="license-item license-text-card">
             <div class="doc-body">
               <h5 class="doc-title">Licenca И150Е3 (I150E3)</h5>
               <p class="doc-text">
@@ -363,13 +340,7 @@ realizacije.</p>
             </div>
           </article>
 
-          <!-- I151E3 -->
-          <article class="license-item">
-            <a class="doc-thumb" href="assets/docs/licence-i151e3.pdf" target="_blank" rel="noopener" aria-label="Licenca I151E3 (PDF)">
-              <img src="assets/img/thumbs/thumbtest.jpg"
-                   alt="Licenca I151E3 — umanjen prikaz"
-                   loading="lazy" width="300" height="400">
-            </a>
+          <article class="license-item license-text-card">
             <div class="doc-body">
               <h5 class="doc-title">Licenca И151Е3 (I151E3)</h5>
               <p class="doc-text">
@@ -381,7 +352,6 @@ realizacije.</p>
       </div>
     </section>
 
-    <!-- SEKCIJA 3: Međunarodni Standardi Kvaliteta -->
     <section class="licenses-iso">
   <h3 class="licenses-section-title">Sistem Menadžmenta Kvalitetom (QMS)</h3>
 

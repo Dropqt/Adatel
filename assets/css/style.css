@@ -270,7 +270,7 @@ input:focus,textarea:focus{
   *{animation:none !important; transition:none !important}
 }
 
-/* ===== LICENCE (compact, refined) — ostavljeno kako je bilo ===== */
+/* ===== LICENCE (compact, refined) — IZMENJENO ZA TEKSTUALNE KARTICE ===== */
 .licenses .licenses-head{ text-align:center; max-width:900px; margin:0 auto 36px }
 .licenses-title{ font-size:32px; margin:0 0 8px; font-weight:800; letter-spacing:.3px }
 .licenses-subtitle{ font-size:20px; margin:0 0 14px; font-weight:700; color:var(--accent) }
@@ -278,26 +278,58 @@ input:focus,textarea:focus{
 .licenses-section-title{ font-size:22px; margin:28px 0 10px; font-weight:800 }
 .license-group{ margin-top:12px }
 .license-group-title{ font-size:16px; font-weight:700; margin:8px 0 12px; color:#e9e9ee }
-.license-list{ display:grid; gap:16px; grid-template-columns:repeat(2,minmax(0,1fr)) }
-@media (max-width:980px){ .license-list{ grid-template-columns:1fr } }
-.card-lite{
-  background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.0));
-  border:1px solid var(--line);
-  border-radius:16px; padding:14px;
-  box-shadow:0 6px 18px rgba(0,0,0,.20);
+
+/* PROMENA 1: Raspored (dva stupca) i razmaci */
+.license-list { 
+    display: flex; /* Koristi Flexbox umesto Grid-a za bolju kontrolu rasporeda */
+    flex-wrap: wrap; 
+    gap: 20px; /* Razmak između kartica */
 }
+@media (max-width:980px){ .license-list{ gap:16px } }
+
+/* Stil tekstuane kartice (license-item) - Uklanjanje kolone za sliku i dodavanje stila kartice */
 .license-item{
-  display:grid; grid-template-columns:120px 1fr; gap:14px; align-items:start;
-  transition:transform .18s ease, box-shadow .25s ease, border-color .2s ease, background .2s ease;
+    /* Svaka kartica zauzima skoro 50% prostora, minus gap */
+    flex: 1 1 calc(50% - 10px); 
+    max-width: calc(50% - 10px); 
+    
+    /* Novi stil kartice (da se razdvoji od pozadine) */
+    background: var(--panel); 
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px;
+    
+    /* Stari stilovi za prelaz i box-shadow */
+    transition:transform .18s ease, box-shadow .25s ease, border-color .2s ease, background .2s ease;
 }
-.license-item:hover{ transform:translateY(-2px); box-shadow:0 10px 30px rgba(0,0,0,.28); border-color:rgba(255,210,0,.26) }
-@media (max-width:720px){ .license-item{ grid-template-columns:90px 1fr } }
-.doc-thumb{ display:block; border-radius:12px; overflow:hidden; border:1px solid var(--line); background:#0f1116; }
-.doc-thumb img{ width:100%; height:auto; aspect-ratio:3/4; object-fit:cover; filter:grayscale(.1) contrast(1.02) brightness(.98); transition:transform .25s ease, filter .25s ease; }
-.doc-thumb:hover img{ transform:scale(1.03); filter:grayscale(0) }
-.doc-body{ display:grid; gap:6px }
-.doc-title{ margin:0; font-size:16px; font-weight:700 }
-.doc-text{ margin:0; color:var(--ink) }
+
+/* PROMENA 2: Kontrastan Hover Efekat (Žuti Rub i Senka) */
+.license-item:hover{ 
+    transform:translateY(-2px); 
+    box-shadow:0 8px 25px rgba(0,0,0,.35); /* Jača senka */
+    border-color:var(--accent); /* Rub postaje ŽUT */
+    background: #15161A; /* Blago potamni unutrašnjost kartice */
+}
+
+/* Uklanjanje nepostojećih klasa koje su se odnosile na slike */
+.card-lite, .doc-thumb, .doc-thumb img {
+    /* Uklanjamo stilove koji su se odnosili na stare elemente */
+    display: none !important; 
+} 
+
+/* Stilizacija teksta */
+.doc-body{ display:block; gap:0; } /* doc-body je sada pun blok */
+.doc-title{ 
+    margin:0; 
+    font-size:17px; 
+    font-weight:800;
+    color: var(--accent); /* Naslov licence u žuto */
+    margin-bottom: 6px;
+}
+.doc-text{ margin:0; color:var(--muted); } /* Tekst u prigušenu boju */
+/* Kraj izmena licence */
+
+
 .iso-split{ align-items:center; gap:20px }
 .iso-figure{ margin:0; background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:10px; text-align:center; max-width:320px; }
 .iso-figure img{ display:block; width:100%; height:auto; border-radius:10px; object-fit:cover }
