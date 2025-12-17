@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $message = htmlspecialchars($_POST['message'] ?? '');
 
   // Email konfiguracija
-  $to = "office@adatel.rs";
+  $to = "adatel@adatel.rs";
   $subject = "Nova poruka sa sajta - od: " . $name;
   
   // Sadržaj mejla
@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $email_body .= "Poruka:\n" . $message . "\n";
   
   // Email headers
-  $headers = "From: office@adatel.rs\r\n";
+  $headers = "From: adatel@adatel.rs\r\n";
   $headers .= "Reply-To: " . $email . "\r\n";
   $headers .= "X-Mailer: PHP/" . phpversion();
   
