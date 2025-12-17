@@ -309,7 +309,7 @@
 
       <div class="license-group">
         <h4 class="license-group-title">Grupa „P” — Licence za Projektovanje</h4>
-
+        
         <div class="license-list">
           <article class="license-item license-text-card">
             <div class="doc-body">

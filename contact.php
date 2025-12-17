@@ -1,9 +1,28 @@
 <?php
-// contact.php — jednostavan “echo” handler za test
+// contact.php — slanje mejla sa kontakt forme
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $name = htmlspecialchars($_POST['name'] ?? '');
   $email = htmlspecialchars($_POST['email'] ?? '');
   $message = htmlspecialchars($_POST['message'] ?? '');
+
+  // Email konfiguracija
+  $to = "office@adatel.rs";
+  $subject = "Nova poruka sa sajta - od: " . $name;
+  
+  // Sadržaj mejla
+  $email_body = "Primili ste novu poruku sa kontakt forme:\n\n";
+  $email_body .= "Ime: " . $name . "\n";
+  $email_body .= "Email: " . $email . "\n";
+  $email_body .= "Poruka:\n" . $message . "\n";
+  
+  // Email headers
+  $headers = "From: office@adatel.rs\r\n";
+  $headers .= "Reply-To: " . $email . "\r\n";
+  $headers .= "X-Mailer: PHP/" . phpversion();
+  
+  // Pokušaj slanja mejla
+  $mail_sent = mail($to, $subject, $email_body, $headers);
+  
 } else {
   header('Location: index.php#kontakt');
   exit;
@@ -19,13 +38,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
   <main class="section">
     <div class="container">
-      <h1>Hvala na poruci!</h1>
-      <p>Primaoc: Adatel doo Beograd</p>
-      <div class="card">
-        <p><b>Ime:</b> <?= $name ?></p>
-        <p><b>Email:</b> <?= $email ?></p>
-        <p><b>Poruka:</b><br><?= nl2br($message) ?></p>
-      </div>
+      <?php if (isset($mail_sent) && $mail_sent): ?>
+        <h1>Hvala na poruci!</h1>
+        <p>Vaša poruka je uspešno poslata. Odgovorićemo vam u najkraćem mogućem roku.</p>
+      <?php else: ?>
+        <h1>Došlo je do greške</h1>
+        <p>Nažalost, poruka nije mogla biti poslata. Molimo pokušajte ponovo ili nas kontaktirajte direktno na office@adatel.rs</p>
+      <?php endif; ?>
+      
       <a class="btn btn-accent" href="index.php">Povratak na početnu</a>
     </div>
   </main>
